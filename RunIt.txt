@@ -1,4 +1,4 @@
-!git clone https://github.com/dabasajay/Image-Caption-Generator.git
+!git clone https://github.com/shaleenjha/CBfAV.git
 !wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
 !wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 !unzip /content/Flickr8k_Dataset.zip -d /content/Image-Caption-Generator/train_val_data

@@ -1,0 +1,8 @@
+!git clone https://github.com/dabasajay/Image-Caption-Generator.git
+!wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
+!wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
+!unzip /content/Flickr8k_Dataset.zip -d /content/Image-Caption-Generator/train_val_data
+!unzip /content/Flickr8k_text.zip -d /content/Image-Caption-Generator/train_val_data
+%cd /content/Image-Caption-Generator
+!python train_val.py 
+!python test.py
